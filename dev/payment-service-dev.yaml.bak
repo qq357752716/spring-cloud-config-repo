@@ -8,3 +8,5 @@ spring:
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
   type-aliases-package: com.atguigu.commons.entity
+config: 
+  info: Configuration Info For Spring Cloud Configuration Center Testing 1
