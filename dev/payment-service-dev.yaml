@@ -5,12 +5,6 @@ spring:
     url: jdbc:mysql://120.26.91.23:3306/spring_cloud?useUnicode=true&characterEncoding=utf8&useSSL=false
     username: root
     password: Niehuiyu1!
-#rabbitmq相关配置 15672是Web管理界面的端口；5672是MQ访问的端口
-  rabbitmq:
-    host: localhost
-    port: 5672
-    username: guest
-    password: guest
 mybatis:
   mapper-locations: classpath*:mapper/*.xml
   type-aliases-package: com.atguigu.commons.entity
